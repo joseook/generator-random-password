@@ -86,6 +86,24 @@ body {
     justify-content: center;
 }
 
+#download-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+#download-button:hover{
+    background:green;
+}
+
 #copy-button {
     background: #1a1a1a;
     color: #fff;
